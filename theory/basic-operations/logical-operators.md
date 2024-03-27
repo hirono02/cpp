@@ -39,3 +39,11 @@ C++ provides the following logical operators:
         std::cout << "The value is not negative. << std::endl;
     }
     ```
+
+With these operators, we are able to create more complex logical expressions, for example:  
+```
+int a = 5, b = -10, c = 15;
+if (a > 0 && * (b > 0 || c > 0)) {
+    std::cout << "At least 2 values are positive." << std::endl;
+}
+```
