@@ -48,4 +48,27 @@ int main() {
 }
 ```
 
+### Do-While Loop
+- A `do-while` loop is similar to a `while` loop, with the key difference being that the loop body is executed at least once, even when the condition is `false`
+- This is the syntax for a `do-while` loop:    
+```
+do {
+    // block of code to execute
+} while (condition);
+```   
+
+For example:
+```
+#include <iostream>
+
+int main() {
+    int i = 0;
+    do { 
+        std::cout << "Iteration: " << i << std::endl;
+        i++;
+    } while (i < 5);
+    return 0;
+}
+```
+
 
