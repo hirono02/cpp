@@ -20,3 +20,11 @@ Example:
 ```
 int result = 5 | 3; // result will be 7 (0000 0101 | 0000 0011 = 0000 0111)
 ```
+
+### Bitwise XOR (^)
+- This bitwise XOR (exclusive OR) operation (`^`) takes 2 numbers, compares them bit by bit, and returns a new number where each bit is set (1) if the corresponding bits in the input numbers are different. Otherwise, the bit is unset (0)  
+
+Example:  
+```
+int result = 5 ^ 3; // result will be 6 (0000 0101 ^ 0000 0011 = 0000 0110) 
+```
