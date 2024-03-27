@@ -46,3 +46,11 @@ Example:
 int result = 5 << 1;   // result will be 10 (0000 0101 << 1 = 0000 1010)
 ```
 
+### Bitwise Right Shift (>>)
+- This bitwise right shift operation (`>>`) is a binary operation that takes 2 numbers, a value, and a shift amount, and returns a new number by shifting the bits of the value to the right by the specified shift amount. 
+- The vacated bits are filled with zeros or sign bit depending on the input value being signed or unsigned.   
+
+Example:   
+```
+int result = 5 >> 1;    // result will be 2 (0000 0101 >> 1 = 0000 0010)
+```
