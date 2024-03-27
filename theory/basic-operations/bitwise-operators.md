@@ -36,3 +36,13 @@ Example:
 ``` 
 int result = ~5; // result will be -6 (1111 1010)
 ```
+
+### Bitwise Left Shift (<<)
+- The bitwise left shift operation (`<<`) is a binary operation that takes 2 numbers, a value, and a shift amount, and returns a new number by shifting the bits of the value to the left by a specified shift amount
+- The vacated bits are then filled with zeros   
+
+Example: 
+```
+int result = 5 << 1;   // result will be 10 (0000 0101 << 1 = 0000 1010)
+```
+
