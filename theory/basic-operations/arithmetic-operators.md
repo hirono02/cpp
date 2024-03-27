@@ -34,3 +34,11 @@ int y = ++x;    // x = 6, y = 6
 int z = x++;    // x = 7, z = 6
 ```
 
+### Decrement Operator
+- It decrements the value of a variable by 1
+- It can also be used in prefix and postfix forms
+```
+int x = 5;
+int y = --x;    // x = 4, y = 4
+int z = x--;    // x = 3, z = 4
+```
