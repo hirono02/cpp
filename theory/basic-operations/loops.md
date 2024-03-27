@@ -8,7 +8,7 @@
 - This is the syntax for a `for` loop:   
 ```
 for (initialization; condition; increment/decrement) {
-    /// block of code to execute
+    // block of code to execute
 }
 ```    
 
@@ -23,4 +23,29 @@ int main() {
     return 0;
 }
 ```
+
+### While Loop
+- A `while` loop runs as long as a specified condition is `true`
+- The loop checks for the condition before entering the body of the loop
+- This is the syntax for a `while` loop:   
+```
+while (condition) {
+    // block of code to execute
+}
+```  
+
+For example:
+```
+#include <iostream>
+
+int main() {
+    int i = 0; 
+    while (i < 5) {
+        std::cout << "Iteration: " << i << std::endl;
+        i++;
+    }
+    return 0;
+}
+```
+
 
