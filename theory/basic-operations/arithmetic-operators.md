@@ -4,3 +4,7 @@
 ### Addition Operator
 - It adds 2 numbers together
 `int sum = a + b;`
+
+### Subtraction Operator
+- It subtracts one number from another
+`int difference = a - b;`
