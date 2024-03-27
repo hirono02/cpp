@@ -23,4 +23,14 @@
 - It calculates the remainder of an integer division  
 `int remainder = a % b;`
 
+### Increment Operator
+- It increments the value of a variable by 1     
+- There are 2 ways to use this operator 
+    - prefix (`++x`): This increments the value before returning it
+    - postfix (`x++`): This returns the value first and then increments it
+```
+int x = 5;     
+int y = ++x;    // x = 6, y = 6   
+int z = x++;    // x = 7, z = 6
+```
 
