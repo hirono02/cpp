@@ -28,3 +28,11 @@ Example:
 ```
 int result = 5 ^ 3; // result will be 6 (0000 0101 ^ 0000 0011 = 0000 0110) 
 ```
+
+### Bitwise NOT (~)
+- The bitwise NOT operation (`~`) is a unary operation that takes a single number, and returns a new number where each bit is inverted   
+
+Example:  
+``` 
+int result = ~5; // result will be -6 (1111 1010)
+```
