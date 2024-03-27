@@ -16,5 +16,11 @@
 ### Division Operator
 - It divides one number by another
 - If both operands are integers, it will perform integer division and the result will be an integer
-`int quotient = a / b;   // integer division` 
-`float quotient = float (a) / float (b);   // floating-point division` 
+`int quotient = a / b;` -> Integer division\ 
+`float quotient = float (a) / float (b);` -> Floating-point division\
+
+### Modulus Operator
+- It calculates the remainder of an integer division
+`int remainder = a % b;`
+
+
