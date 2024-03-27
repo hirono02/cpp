@@ -27,3 +27,15 @@ C++ provides the following logical operators:
         std::cout << "At least one value is positive." << std::endl;
     }
     ```
+- NOT Operator (!)
+    - The NOT operator reverses the result of the condition/expression it is applied on
+    - If the condition is true, the NOT operator will make it false and vice versa   
+    `(expression)`       
+
+    Example: 
+    ```
+    int a = 5;
+    if (!(a < 0)) {
+        std::cout << "The value is not negative. << std::endl;
+    }
+    ```
