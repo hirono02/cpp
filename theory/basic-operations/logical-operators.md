@@ -30,7 +30,7 @@ C++ provides the following logical operators:
 - NOT Operator (!)
     - The NOT operator reverses the result of the condition/expression it is applied on
     - If the condition is true, the NOT operator will make it false and vice versa   
-    `(expression)`       
+    `!(expression)`       
 
     Example: 
     ```
