@@ -27,3 +27,30 @@ int main() {
 
     return 0;
 }
+```
+
+### `std::any` (C++17)
+C++ 17 introduced the `std::any` class which represents a generalized type-safe container for single values of any type.  
+
+Example:  
+```
+#include <iostream>
+#include <any>
+
+int main() {
+    std::any any_value;
+
+    any_value = 42;
+    std::cout << "int value: " << std::any_cast<int>(any_value) << std::endl;
+
+    any value = 3.14;
+    std::cout << "double value: " << std::any_cast<double>(any_value) << std::endl;
+
+    any_value = std::string("Hello, world!");
+    std::cout << "string value: " << std::any_cast<std::string>(any_value) << std::endl;
+    
+    return 0;
+}
+```
+
+We have to keep in mind that both `void*` pointers and `std::any` have **performance implications** due to the additional type checking and casting that takes place during runtime. They should be used carefully and only when absolutely necessary.
