@@ -1,0 +1,28 @@
+# Operators in C++
+- Operators in C++ are symbols that perform various operations on data
+- They are used to manipulate and evaluate expressions and variables
+- Commonly used operator types in C++ includes:
+    - **Arithmetic Operators**: These are used for performing arithmetic operations
+        - `+`: addition
+        - `-`: subtraction
+        - `*`: multiplication
+        - `/`: division
+        - `%`: modulo (remainder)
+    - **Comparison (Relational) Operators**: These are used to compare 2 values and return true or false based on the comparison
+        - `==`: equal to
+        - `!=`: not equal to
+        - `<`: less than
+        - `>`: greater than
+        - `<=`: less than or equal to
+        - `>=`: greater than or equal to    
+    - **Logical Operators**: These operators are used to perform logical operations
+        - `&&`: logical AND
+        - `||`: logical OR
+        - `!`: logical NOT
+    - **Assignment Operators**: These operators are used to assign values to variables
+        - `=`: simple assignemnt
+        - `+=`: addition assignemnt
+        - `-=`: subtraction assignemnt
+        - `*=`: multiplication assignemnt
+        - `/=`: division assignemnt
+        - `%=`: modulo assignemnt
