@@ -38,5 +38,33 @@ Booleans represent logical values: `true` or `false`. They usually occupy 1 byte
 Example:  
 `bool is_cpp_great true;`
 
+## Derived Data Types
+Derived data types are types that are derived from fundamental data types.   
+Some examples include:   
+
+### Arrays 
+Arrays are used to store multiple values of the same data type in consecutive memory locations.  
+
+Example:   
+`int numbers[5] = {1, 2, 3, 4, 5};`
+
+### Pointers
+Pointers are used to store the memory address of a variable.   
+
+Example: 
+```
+int num = 42;
+int* pNum = &num;
+```
+
+### References
+References are an alternative way to share memory location between variables, allowing us to create an alias for another variable   
+
+Example:
+```
+int num = 42;
+int& numRef = num;
+```
+
 
 
