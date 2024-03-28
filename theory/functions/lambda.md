@@ -16,7 +16,7 @@
 - **function body**: The code that defines the operation of the lambda function
 
 ### Usage Examples
-These are a few examples to demonstrate the use of llambda functions in C++:
+These are a few examples to demonstrate the use of lambda functions in C++:
 - Lambda function with no capture, parameters, or return type   
 ```
 auto printHello = []() {
